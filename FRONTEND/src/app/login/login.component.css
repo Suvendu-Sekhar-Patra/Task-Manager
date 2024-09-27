@@ -1,0 +1,47 @@
+/* Enhancements for Login and Signup Cards */
+.login-card, .signup-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+.card-header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.form-control {
+    background-color: #f0f4f8;
+    border: none;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.text-center p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.text-danger {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+

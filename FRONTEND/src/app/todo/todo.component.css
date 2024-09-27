@@ -1,0 +1,25 @@
+.todo-card {
+    background-color: rgb(248, 239, 239);
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-card:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s ease;
+  }
+  
+  .todo-item {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .card-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
